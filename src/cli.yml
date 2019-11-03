@@ -1,0 +1,11 @@
+name: roxie
+version: "1.0"
+author: Henrik H. Andersen <headwiki@pm.me>
+about: Rust proxy tool
+args:
+    - ports:
+        short: p
+        long: ports
+        value_name: PORTS
+        help: Sets PORTS to listen to
+        takes_value: true
